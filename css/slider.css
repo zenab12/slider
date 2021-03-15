@@ -1,0 +1,136 @@
+body{
+    margin:0px;
+}
+.clearfix
+{
+    clear:both;
+}
+
+nav ul{
+
+margin-left:30%;
+
+
+}
+ul li{
+
+display: inline-block;
+margin-left:30px;
+text-align: center;
+
+}
+ul li a {
+
+width:100%;
+text-decoration: none;
+}
+.active {
+color:red;
+}
+
+
+.slider 
+{
+    border: 10px solid black;
+    width: 65%;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 600px;
+    overflow: hidden
+}
+
+
+.slider img 
+{
+  
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  z-index: 0;
+  display: none;
+  overflow: hidden
+}
+
+
+.slider img.active{
+    z-index: 1;
+    display: inline-block;
+}
+
+
+.icons{
+    width:100%;
+    position: absolute;
+    z-index: 3;
+    overflow: hidden;
+    font-size: 30px;
+    bottom:45%;
+}
+
+.icons  .fa-chevron-left {
+    float:left;
+   margin-left:10px;
+   cursor: pointer;
+   background-color: aliceblue;
+   padding: 10px;
+   border-radius: 40%;
+    
+    
+}
+
+.icons  .fa-chevron-right {
+    float:right;
+    margin-right:10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 40%;
+    padding: 10px;
+}
+
+
+.indicator
+{
+    position: relative;
+    top:10%;
+    left: 37%;
+    width: 50%;
+}
+
+
+.indicator ul{
+ list-style: none;
+ display: inline-block;
+ margin: 20px auto;
+ text-align: center;
+}
+
+.indicator ul li
+{
+    margin-left: 10px;
+    background-color: black;
+    width: 20px;
+    height:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.indicator ul li.active 
+{
+    width: 40px;
+    background-color: red;
+}
+
+nav h2 {
+    display:none
+}
+
+
+.animate__heartBeat,
+.animate__{
+    --animate-duration: 15s;
+    --animate-delay: 10s;
+  }
+
+
+
