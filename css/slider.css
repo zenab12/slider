@@ -6,11 +6,16 @@ body{
     clear:both;
 }
 
-nav ul{
-
-margin-left:30%;
-
-
+h1 {
+    text-align:center;
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    background-color:black;
+    width:67%;
+    margin-left: 14.5%;
+    padding: 10px;
 }
 ul li{
 
